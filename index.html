@@ -2,16 +2,49 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="./css/style.css">
         <title>Odin Recipes</title>
-
+        
     </head>
 
     <body>
-        <h1>Odin Recipes</h1>
-        <ul>
-            <li><h1><a href="./recipes/adobo.html">Adobo</a></h1></li>
-            <li><h1><a href="./recipes/kare-kare.html">Kare-kare</a></h1></li>
-            <li><h1><a href="./recipes/sinigang.html">Sinigang</a></h1></li>
+        <div id="title">
+            <h1>Odin Recipes</h1>
+        </div>
+        <ul class="recipes">
+            
+            <li class="adobo">
+                <div class="adobo__img" >
+                    <img src="img/adobo.jpg" alt="Adobo">
+                </div>
+                <a href="./recipes/adobo.html">
+                    <div class="adobo__overlay">
+                        <h1>Adobo</h1>
+                    </div>
+                </a>
+            </li>
+
+            <li class="kare-kare">
+                <div class="kare-kare__img">
+                    <img src="img/kare-kare.jpg" alt="kare-kare">
+                </div>
+                <a href="./recipes/kare-kare.html">
+                    <div class="kare-kare__overlay">
+                        <h1>Kare-kare</h1>
+                    </div>
+                </a>
+            </li>
+
+            <li class="sinigang">
+                <div class="sinigang__img">
+                    <img src="img/sinigang.png" alt="sinigang">
+                </div>
+                <a href="./recipes/sinigang.html">
+                    <div class="sinigang__overlay">
+                        <h1>Kare-kare</h1>
+                    </div>
+                </a>
+            </li>
         </ul>
     </body>
 </html>
